@@ -1,4 +1,4 @@
-require 'spreadsheet'
+require 'spreadshiit'
 
 warn <<-EOS
 [DEPRECATED] By requiring 'parseexcel', 'parseexcel/parseexcel' and/or
@@ -8,14 +8,14 @@ warn <<-EOS
              will be removed in Spreadsheet version 1.0.0
 EOS
 
-module Spreadsheet
+module Spreadshiit
   ##
   # The ParseExcel module is provided as a drop-in replacement for the
   # ParseExcel library. This code is deprecated and will be removed in
   # Spreadsheet version 1.0.0
   module ParseExcel
 def ParseExcel.parse path
-  Spreadsheet.open path
+  Spreadshiit.open path
 end
 class Worksheet
   class Cell
@@ -26,7 +26,7 @@ class Worksheet
       @idx = idx
       @row = row
       @value = value
-      @encoding = Spreadsheet.client_encoding
+      @encoding = Spreadshiit.client_encoding
     end
     def date
       @row.date @idx

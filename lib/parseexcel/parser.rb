@@ -1,10 +1,10 @@
 require 'parseexcel'
 
-module Spreadsheet
+module Spreadshiit
   module ParseExcel # :nodoc: all
     class Parser
       def parse path
-        Spreadsheet.open path
+        Spreadshiit.open path
       end
     end
   end
