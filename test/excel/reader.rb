@@ -3,7 +3,7 @@
 
 $: << File.expand_path('../../../lib', File.dirname(__FILE__))
 
-require 'test/unit'
+require 'test-unit'
 
 module Spreadshiit
   module Excel
