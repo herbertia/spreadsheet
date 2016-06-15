@@ -4,11 +4,11 @@
 $: << File.expand_path('../lib', File.dirname(__FILE__))
 
 require 'test/unit'
-require 'spreadsheet'
+require 'spreadshiit'
 require 'fileutils'
 require 'stringio'
 
-module Spreadsheet
+module Spreadshiit
   class TestWorkbook < Test::Unit::TestCase
     def setup
       @io = StringIO.new ''

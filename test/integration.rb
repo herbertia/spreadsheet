@@ -6,10 +6,10 @@
 $: << File.expand_path('../lib', File.dirname(__FILE__))
 
 require 'test/unit'
-require 'spreadsheet'
+require 'spreadshiit'
 require 'fileutils'
 
-module Spreadsheet
+module Spreadshiit
   class TestIntegration < Test::Unit::TestCase
     if RUBY_VERSION >= '1.9'
       class IconvStub

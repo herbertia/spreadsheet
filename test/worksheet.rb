@@ -4,9 +4,9 @@
 $: << File.expand_path('../lib', File.dirname(__FILE__))
 
 require 'test/unit'
-require 'spreadsheet'
+require 'spreadshiit'
 
-module Spreadsheet
+module Spreadshiit
   class TestWorksheet < Test::Unit::TestCase
     def setup
       @book = Workbook.new

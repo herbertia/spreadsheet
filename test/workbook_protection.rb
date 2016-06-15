@@ -3,9 +3,9 @@
 $: << File.expand_path('../lib', File.dirname(__FILE__))
 
 require 'test/unit'
-require 'spreadsheet'
+require 'spreadshiit'
 
-module Spreadsheet
+module Spreadshiit
   module Excel
     class TestWorkbook < Test::Unit::TestCase
       def test_password_hashing
