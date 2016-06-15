@@ -8,5 +8,5 @@ machine:
     version: 2.2.2
 
 test:
-  post:
+  override:
     - ruby -w ./test/suite.rb
