@@ -1,0 +1,12 @@
+general:
+  branches:
+    only:
+      - devel/try
+
+machine:
+  ruby:
+    version: 2.2.2
+
+test:
+  post:
+    - ruby -w ./test/suite.rb
