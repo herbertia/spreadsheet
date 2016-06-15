@@ -9,7 +9,7 @@ module Spreadshiit
   module Excel
     class TestWorkbook < Test::Unit::TestCase
       def test_password_hashing
-        hashing_module = Spreadsheet::Excel::Password
+        hashing_module = Spreadshiit::Excel::Password
         # Some examples found on the web
         assert_equal(0xFEF1, hashing_module.password_hash('abcdefghij'))
         assert_equal(hashing_module.password_hash('test'), hashing_module.password_hash('zzyw'))
