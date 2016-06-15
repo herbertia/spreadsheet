@@ -3,10 +3,6 @@ general:
     only:
       - devel/try
 
-machine:
-  ruby:
-    version: 2.2.2
-
 test:
   override:
-    - ruby -w ./test/suite.rb
+    - ruby -w test/suite.rb
