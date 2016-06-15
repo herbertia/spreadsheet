@@ -2,9 +2,9 @@
 # Excel::Writer::TestWorksheet -- Spreadheet -- 21.11.2007 -- hwyss@ywesee.com
 
 require 'test/unit'
-require 'spreadsheet/excel/writer/worksheet'
+require 'spreadshiit/excel/writer/worksheet'
 
-module Spreadsheet
+module Spreadshiit
   module Excel
     module Writer
       class TestWorksheet < Test::Unit::TestCase
@@ -51,7 +51,7 @@ module Spreadsheet
         end
 
         def test_strings
-          book = Spreadsheet::Excel::Workbook.new
+          book = Spreadshiit::Excel::Workbook.new
           sheet = book.create_worksheet
           writer = Worksheet.new book, sheet
           rowi = -1
