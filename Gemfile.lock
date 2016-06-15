@@ -3,8 +3,11 @@ GEM
   specs:
     hoe (3.7.1)
       rake (>= 0.8, < 11.0)
+    power_assert (0.2.2)
     rake (10.1.0)
     ruby-ole (1.2.11.7)
+    test-unit (3.0.8)
+      power_assert
 
 PLATFORMS
   ruby
@@ -12,3 +15,7 @@ PLATFORMS
 DEPENDENCIES
   hoe (>= 3.4)
   ruby-ole
+  test-unit
+
+BUNDLED WITH
+   1.12.5
