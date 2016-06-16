@@ -4,5 +4,5 @@ general:
       - devel/try
 
 test:
-  override:
+  post:
     - ruby -w test/suite.rb
